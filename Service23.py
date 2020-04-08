@@ -1,4 +1,3 @@
-sara-branch
 from application import app
 from flask import request, Response
 from random import randit
@@ -13,3 +12,5 @@ def random_color():
 @app.route(/random/number, methods = ['GET'])
 def random_number():
     return Response(randit(1,8), mimetype='test/plain')
+
+~                                                                 
